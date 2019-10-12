@@ -62,7 +62,7 @@ body {
     border: 2px solid;
     border-radius: 1px;
     transition: 0.2s;
-    cursor: pointer;
+    cursor: pointesr;
   }
 
   .button button:hover {
@@ -87,4 +87,20 @@ body {
       margin-left: 10px;
       font-weight: bold;
   }
+
+  .win-wrapper {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+      width: 400px;
+      left: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+      font-size: 3em;
+      text-transform: capitalize;
+      color: rgb(65, 177, 230);
+  }
+
 
